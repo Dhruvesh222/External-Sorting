@@ -247,10 +247,10 @@ int main_ext_mrg()
     return 0;
 }
 int main(){
-    #ifndef ONLINE_JUDGE
-        freopen("input.txt", "r", stdin);
-        freopen("output.txt", "w", stdout);
-    #endif
+//     #ifndef ONLINE_JUDGE
+//         freopen("input.txt", "r", stdin);
+//         freopen("output.txt", "w", stdout);
+//     #endif
     cin>>abp>>rpp;
     int n;
     cin>>n;
